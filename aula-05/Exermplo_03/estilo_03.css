@@ -1,0 +1,29 @@
+h1{
+	color:rgb(0,0,255);
+	text-align:center;
+}
+
+h2{
+	border-style: solid;
+    border-width: 1px;
+}
+
+#artigo_1{
+	background: orange;
+	border-style: solid;
+	border-width: 1px;
+	margin-top:40px;
+	margin-right:40px;
+	margin-bottom:40px;
+	margin-left:40px;
+}
+
+#artigo_2{
+	background: orange;
+	border-style: solid;
+	border-width: 1px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+}

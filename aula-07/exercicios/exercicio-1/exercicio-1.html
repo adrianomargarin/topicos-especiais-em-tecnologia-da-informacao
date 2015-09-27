@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Exercício 01</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="col-md-6 col-md-offset-3">
+            <h4>Exercício 01</h4>
+            <p>Crie uma página HTML5 que possua um formulário. Este formulário deve permitir a entrada de dois
+        números positivos e um botão para executar um programa Javascript.</p>
+            <p>O programa deve receber dois valores inteiros positivos e calcular e escrever o MDC (Máximo Divisor Comum) pelo método de Euclides.</p>
+            <p>O método de Euclides considera um número como dividendo e o outro como divisor (o dividendo é o maior dos dois números), calculando o resto da divisão. Caso o resto seja zero, o MDC é o próprio divisor, senão o dividendo do próximo ciclo é o divisor do ciclo anterior e o divisor é o resto e o ciclo é repetido. Exemplo para os números 750 e 210; o MDC para esses números é 30:</p>
+        </div>
+        <div class="col-md-4 col-md-offset-4">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>dividendo</th>
+                        <th>divisor</th>
+                        <th>resto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>750</td>
+                        <td>210</td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <td>210</td>
+                        <td>120</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>120</td>
+                        <td>90</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>90</td>
+                        <td>30</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-4 col-md-offset-4">
+            <form method="POST">
+                <div class="form-group">
+                    <div class="form-group col-md-5">
+                        <input type="number" name="primeiro_numero" id="id_primeiro_numero" class="form-control" required></input>
+                    </div>
+                    <div class="form-group col-md-5">
+                        <input type="number" name="segundo_numero" id="id_segundo_numero" class="form-control" required></input>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <input type="submit" class="btn btn-primary" value="Calcular"></input>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/calculo.js"></script>
+    </body>
+</html>

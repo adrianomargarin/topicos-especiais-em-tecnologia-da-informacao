@@ -1,0 +1,31 @@
+
+h1 {font-family: arial, verdana, sans-serif;}
+
+h2 {font-family: "Times New Roman", serif;}
+
+h3 {font-family: "Comic Sans MS", cursive, sans-serif;
+   font-style: italic;}
+   
+#estilo_italico{font-style: italic;}
+#estilo_obliquo{font-style: oblique;}
+#maiuscula_sc{font-variant: small-caps;}
+#negrito{font-weight:bold;}
+
+#px24{font-size:24px;}
+#pt18{font-size:18pt;}
+#kw_large{font-size:large;}
+#kw_small{font-size:small;}
+#p50{font-size:50%;}
+#p100{font-size:100%;}
+#p200{font-size:200%;}
+#ems50{font-size:0.5em;}
+#ems100{font-size:1em;}
+#emsp200{font-size:2em%;}
+
+/* 1º) Estilo
+   2º) Peso
+   3º) Tamanho
+   4º) Família
+   #festa_uva{ font-style: italic; font-weight:bold; font-size:14pt; font-family: "Times New Roman", serif;}
+*/
+#festa_uva{ font: italic bold 14pt "Times New Roman", serif;}

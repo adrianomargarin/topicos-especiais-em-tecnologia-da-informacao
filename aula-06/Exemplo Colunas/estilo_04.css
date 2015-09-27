@@ -1,0 +1,27 @@
+body {
+	background-color: #FFCC66;
+}
+h1 {
+	color: #000000; /* cor preta */
+	background-color: #ffff00; /* cor amarela */
+	text-align: center;
+}
+#figuras_esq {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+#texto {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+#figuras_dir {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+p {
+	text-indent: 30px;
+	text-align: justify;
+}

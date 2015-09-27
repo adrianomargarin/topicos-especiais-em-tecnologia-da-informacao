@@ -1,0 +1,28 @@
+body{ background-color: #FFCC66;
+}
+
+h1{ color: #000000; /* cor preta */
+    background-color: #ffff00; /* cor amarela */
+	text-align:center;
+	}
+	
+#texto{ 	width: 80%;
+			height: 50%;
+			border: 1px solid black;
+			background:cyan;
+			position:relative; /* Posição relativa em relação a sua posição normal.  */
+			left:100px;
+			
+		}
+#figura_esq{ float:left;
+			  width:33%;
+			 }
+#figura_centro{ float:left;
+			  width:33%;
+			 }
+#figura_dir{ float:left;
+			  width:33%;
+			 }
+
+p{	text-indent:30px;
+	text-align:justify;}

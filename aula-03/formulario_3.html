@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulários - Ex. 3</title>
+	</head>
+	<body>
+		<h1>Formulário de Cálculo</h1>
+		<form oninput="total.value = (valor1.valueAsNumber) + (valor2.valueAsNumber) + (valor3.valueAsNumber)">
+		<!-- Evento oninput é disparado quando algo é modificado no valor de um campo de formulário.
+		     onchange é disparado ao final da edição, oninput é disparado ao editar -->
+			<p>
+				<label>Valor 1:</label>
+				<input type="number" id="id_valor1" name="valor1" min="1" max="10" required onblur="alert('Valor 1 perdeu o foco')"/>
+			</p>
+			<p>
+				<label>Valor 2:</label>
+				<input type="number" id="id_valor2" name="valor2" min="5" max="10" required/>
+			</p>
+			<p>
+				<label>Valor 3:</label>
+				<input type="number" id="id_valor3" name="valor3" min="1" max="10" required/>
+			</p>
+			<p>
+				<label>Total:
+				  <output id="total" name="total"></output><br><br>
+				</label>
+			</p>
+			<input type="submit" value="Enviar" />
+			<input type="reset" value="Limpar" />
+		</form>
+	</body>
+</html>

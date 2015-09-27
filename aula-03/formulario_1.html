@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulários - Ex. 1</title>
+	</head>
+	<body>
+	  <h1>Formulário de Resposta</h1>
+      <p>Por favor, preencha este formulário e nos ajude a melhorar o nosso site.</p>
+
+      <!-- Esta tag inicia o formulário, setando o método de envio de dados -->
+      <!-- e a localização do script -->
+
+      <form method = "post" action = "">
+         <!-- <input type = "text"> insere um text box. 
+		      AUTOFOCUS: Recebe o foco ao carregar a página 
+			  PLACEHOLDER: Informa o que deve ser preenchido
+			  REQUIRED: Campo Obrigatório -->
+         <p>
+             <label>
+               Nome: 
+            </label>
+			<input  type = "text" id = "id_nome" "name = "nome" size = "25" maxlength = "30" placeholder="Seu nome" autofocus required/>
+         </p>
+  
+         <p>
+            <!-- input type "submit" e "reset" inserem botões para envio e -->
+            <!-- para limpar os campos do formulário -->
+
+            <input type = "submit" value = "Enviar" />
+            <input type = "reset" value = "Limpar" />
+         </p>   
+      </form>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Posicionamento</title>
+		<style>
+			div.relative{	position: relative;
+							width: 400px;
+							height: 200px;
+							border: 3px solid #8AC007;
+					}
+			div.absolute{	position: absolute;
+							top: 80px;
+							left:10px;
+							width: 200px;
+							height: 100px;
+							border: 3px solid #8AC007;
+				}
+		</style>
+	</head>
+	<body>
+	<h1>Posicionamento ABSOLUTE</h1>
+	<p>
+	Um elemento posicionado com ABSOLUTE é posicionado em relação ao mais próximo antecessor (ao invés de posicionado em relação ao VIEWPORT, como o FIXED) 
+	</p>
+	<br/>
+	
+	<div class="relative">
+		Este elemento está posicionado com RELATIVE.
+		<div class="absolute">
+			Este elemento está posicionado com ABSOLUTE.
+		</div>
+	</div>
+
+	</body>
+</html>

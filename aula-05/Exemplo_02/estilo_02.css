@@ -1,0 +1,24 @@
+
+h1{
+    color: rgb(136,0,21);
+    font-size: 24pt;
+    font-weight: bold;
+    font-style:italic;
+    font-family: "Times New Roman", serif;
+    text-align:center;
+    text-decoration: underline;
+    letter-spacing: 4px;
+}
+
+p{
+    font-size: 12pt;
+    font-family: "Times New Roman", serif;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.festa_uva{
+    color: rgb(0,128,0);
+	font-weight: bold;
+	text-transform: uppercase;
+}

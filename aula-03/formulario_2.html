@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulários - Ex. 2</title>
+	</head>
+	<body>
+      <h1>Formulário de Retorno</h1>
+      <p>Por favor, preencha este formulário para nos ajudar a melhorar o nosso site</p>
+
+      <form method = "post" action = "">
+         <p>
+             <label>
+               Nome: 
+            </label>
+			<input name = "nome" id="id_nome" type = "text" size = "25" maxlength = "30" autofocus/>
+         </p>
+ 
+         <!-- Cria uma caixa de texto com várias linhas (TextArea) 
+		      No HTML5 o elemento TEXTAREA pode ter o atributo MAXLENGTH -->
+         <p>
+            <label>Comentários:<br />
+            </label>
+			<textarea name = "comentarios" id="id_comentarios" rows = "4" cols = "36" maxlength = "200" placeholder="Escreva o seu comentário."></textarea>
+         </p>
+
+         <!-- Caixa de texto com caracteres que ocultam a digitação (entrada de senhas) -->
+         <p>
+            <label>
+               Senha: <input name = "senha" id="id_senha" type = "password"  size = "25" /> 
+               (Oculto)
+            </label>
+         </p>              
+         <!-- PATTERN: Permite definir expressões regulares de validação sem Javascript -->
+         <p>
+            <label>
+               CEP: 
+            </label>
+			<input name = "cep" id="id_cep" size = "9" maxlength = "9" required pattern="\d{5}-?\d{3}" /> 
+         </p>
+         <!-- Checkbox -->
+         <p>
+            <strong>Coisas que você gostou:</strong><br/>
+
+            <label>
+               <input name = "coisasgostou" id="id_coisasgostou" type = "checkbox" value = "Design" />
+               Design do Site
+            </label>
+            <label>
+               <input name = "coisasgostou" id="id_coisasgostou" type = "checkbox" value = "Links" />
+               Links
+            </label>
+            <label>
+               <input name = "coisasgostou" id="id_coisasgostou" type = "checkbox" value = "Facilidade" />
+               Facilidade de Uso
+            </label> 
+            <label>
+               <input name = "coisasgostou" id="id_coisasgostou" type = "checkbox" value = "Imagens" />
+               Imagens            
+            </label>
+            <label>
+               <input name = "coisasgostou" id="id_coisasgostou" type = "checkbox" value = "Codigo" />
+               Código Fonte            
+            </label>
+         </p>
+
+         <!-- Botões de rádio -->
+         <p>
+            <strong>Como você conheceu nosso site?:</strong><br />
+
+            <label>
+               <input name = "comoconheceu" id="id_comoconheceu" type = "radio" value = "mecanismo busca" checked = "checked" />
+               Mecanismo de Busca
+            </label><br/>
+            <label>
+               <input name = "comoconheceu" id="id_comoconheceu" type = "radio" value = "link" />
+               Links em outros sites
+            </label><br/> 
+            <label>
+               <input name = "comoconheceu" id="id_comoconheceu" type = "radio" value = "ucs.br" />
+               Web site da disciplina
+            </label><br/>
+            <label>
+               <input name = "comoconheceu" id="id_comoconheceu" type = "radio" value = "livro" />
+               Referência em um livro
+            </label><br>
+            <label>
+               <input name = "comoconheceu" id="id_comoconheceu" type = "radio" value = "outro" />
+               Outra
+            </label><br/>
+         </p>
+
+         <p>
+            <label>Classifique nosso site: </label><br/>
+
+                <!-- Apresenta uma lista  -->
+
+               <select name = "classificacao" id="id_classificacao"size="5">
+                  <option selected = "selected">Fantástico</option>
+                  <option>10</option>
+                  <option>9</option>
+                  <option>8</option>
+                  <option>7</option>
+                  <option>6</option>
+                  <option>5</option>
+                  <option>4</option>
+                  <option>3</option>
+                  <option>2</option>
+                  <option>1</option>
+                  <option>Horrível</option>
+               </select>
+            
+         </p>
+		 <p>
+			<label>Selecione sua Data de Nascimento</label>
+			 <input name="data_nasc" id="id_data_nasc" type="date"  />
+		 </p>
+		 <p>
+			<label>Selecione o Horário de Início da Partida</label>
+			 <input name="horario" id="id_horario" type="time"  />
+		 </p>
+		 <p>
+			<label>Selecione o Data e Hora</label>
+			 <input name="data_hora" id="id_data_horao" type="datetime-local"  />
+		 </p>
+		 <p>
+			<label>Selecione a sua cor favorita</label>
+			 <input name="cor" id="id_cor" type="color"  />
+		 </p>
+		 <p>
+			<label>Faixa</label>
+			 <input name="faixa" id="id_faixa" type="range" value="10" step="0.5" min="0" max="20" />
+		 </p>
+		 <p>
+			<label>Procura</label>
+			 <input name="busca" id="id_busca" type="search"/>
+		 </p>
+		 <p>
+			<input type="button" onclick="alert('Oi Pessoal')" value="Clique">
+		 </p>
+		 <p><button type="button" onclick="alert('Tchau Pessoal')">Aperte</button>
+		 </p>
+		 
+		 
+         <p>
+            <input type = "submit" value = "Enviar" />
+            <input type = "reset" value = "Limpa" />
+         </p>   
+      </form>
+	</body>
+</html>

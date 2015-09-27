@@ -1,0 +1,41 @@
+x<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <form oninput="total.value = (night.valueAsNumber * 100) + (host.valueAsNumber * 10) -10">
+            <p>
+                <label>Nome:</label>
+                <input name="name" id="id_name" type="text" required>
+            </p>
+            <p>
+                <label>E-mail:</label>
+                <input name="email" id="id_email" type="email" required>
+            </p>
+            <p>
+                <label>Data Chegada:</label>
+                <input name="date" id="id_date" type="date" required>
+            </p>
+            <p>
+                <label>Número de Noites (R$ 100,00 por noite):</label>
+                <input name="night" id="id_night" type="number" required>
+            </p>
+            <p>
+                <label>Número de Hóspedes (Taxa adicional de R$ 10,00 por hóspede adicional):</label>
+                <input name="host" id="id_host" type="number" required>
+            </p>
+            <p>
+                <label>Total:</label>
+                <output id="total" name="id_total">0</output><br><br>
+            </p>
+            <p>
+                <label>Código:</label>
+                <input name="code" id="id_code" type="text" pattern="[A-Za-z0-9]{6}" title="Código promocional">
+            </p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </body>
+</html>
