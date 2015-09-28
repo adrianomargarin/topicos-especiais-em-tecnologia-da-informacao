@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"sa",
+				"saque"
+			],
+			[
+				"qnt",
+				"qnt_final_galinhas"
+			],
+			[
+				"qn",
+				"qnt_inicial_galinhas"
+			],
+			[
 				"table",
 				"table_html"
 			],
@@ -502,55 +514,27 @@
 			[
 				"o",
 				"objects"
-			],
-			[
-				"emitt",
-				"emitters"
-			],
-			[
-				"so",
-				"social_reason"
-			],
-			[
-				"pos",
-				"post_data_valid"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "aula-07/exercicios/exercicio-2/exercicio-2.html",
+			"file": "aula-07/exercicios/exercicio-4/exercicio-4.html",
 			"settings":
 			{
-				"buffer_size": 4426,
+				"buffer_size": 1723,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "aula-07/exercicios/exercicio-2/js/calculo.js",
+			"contents": "$(document).ready(function(){\n\n    $(\"form\").submit(function(){\n        debugger;\n        var data_informada = $(\"#id_data_informada\").val();\n        \n    });\n});",
+			"file": "aula-07/exercicios/exercicio-4/js/exibir-data.js",
+			"file_size": 153,
+			"file_write_time": 130878736345960290,
 			"settings":
 			{
-				"buffer_size": 1452,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "aula-03/formularios.html",
-			"settings":
-			{
-				"buffer_size": 1230,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Exercício 02</title>\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"col-md-6 col-md-offset-3\">\n            <h4>Exercício 02</h4>\n            <p>Uma aplicação financeira paga uma porcentagem de juros ao mês (por exemplo, 5%). O aplicador retira (saca) um determinado valor mensal (por exemplo, R$ 200,00). Escreva um programa em Javascript que leia as seguintes informações de uma página HTML5:</p>\n            <ul>\n                <li>Saldo inicial da aplicação financeira;</li>\n                <li>Porcentagem de juros pagas ao mês;</li>\n                <li>Retirada mensal.</li>\n            </ul>\n            <p>O seu programa deve calcular e mostrar na página HTML5 (em uma tabela), em quantos meses o saldo\nserá insuficiente para sacar o valor e qual é este saldo. Veja o exemplo abaixo:</p>\n            <p><strong>Saldo inicial:</strong> R$ 800,00</p>\n            <p><strong>Porcentagem de juros:</strong> 5%</p>\n            <p><strong>Saque mensal:</strong> R$ 200,00</p>\n        </div>\n        <div class=\"col-md-4 col-md-offset-4\">\n            <table class=\"table table-striped table-bordered\">\n                <thead>\n                    <tr>\n                        <th>Mês</th>\n                        <th>Saldo + %</th>\n                        <th>Saque</th>\n                        <th>Saldo</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <td>0</td>\n                        <td>840,00</td>\n                        <td>200,00</td>\n                        <td>640,00</td>\n                    </tr>\n                    <tr>\n                        <td>1</td>\n                        <td>672,00</td>\n                        <td>200,00</td>\n                        <td>472,00</td>\n                    </tr>\n                    <tr>\n                        <td>2</td>\n                        <td>496,60</td>\n                        <td>200,00</td>\n                        <td>295,60</td>\n                    </tr>\n                    <tr>\n                        <td>3</td>\n                        <td>310,00</td>\n                        <td>200,00</td>\n                        <td>110,38</td>\n                    </tr>\n                </tbody>\n            </table>\n            <p>Uma tabela, semelhante à acima, deverá ser exibida.</p>\n            <p><strong>Atenção:</strong> Dependendo do valor inicial aplicado, o saldo pode não diminuir, identificar e mostrar mensagem.</p>\n        </div>\n        <div class=\"col-md-4 col-md-offset-4\">\n            <form method=\"POST\">\n                <div class=\"form-group\">\n                    <div class=\"form-group col-md-5\">\n                        <label>Saldo</label>\n                        <input type=\"number\" name=\"saldo\" id=\"id_saldo\" class=\"form-control\" required></input>\n                    </div>\n                    <div class=\"clearfix\"></div>\n                </div>\n                <div class=\"form-group\">\n                    <div class=\"form-group col-md-5\">\n                        <label>Porcentagem de Juros</label>\n                        <input type=\"number\" name=\"juro\" id=\"id_juro\" class=\"form-control\" required></input>\n                    </div>\n                    <div class=\"clearfix\"></div>\n                </div>\n                <div class=\"form-group\">\n                    <div class=\"form-group col-md-5\">\n                        <label>Retirada mensal</label>\n                        <input type=\"number\" name=\"saque\" id=\"id_saque\" class=\"form-control\" required></input>\n                    </div>\n                    <div class=\"clearfix\"></div>\n                </div>\n                <div class=\"form-group\">\n                    <div class=\"form-group col-md-2\">\n                        <input type=\"submit\" class=\"btn btn-primary\" value=\"Calcular\"></input>\n                    </div>\n                </div>\n            </form>\n        </div>\n\n        <script type=\"text/javascript\" src=\"js/jquery.min.js\"></script>\n        <script type=\"text/javascript\" src=\"js/bootstrap.min.js\"></script>\n        <script type=\"text/javascript\" src=\"js/calculo.js\"></script>\n    </body>\n</html>",
-			"file": "aula-07/exercicios/exercicio-2/resultado.html",
-			"file_size": 0,
-			"file_write_time": 130878624750479938,
-			"settings":
-			{
-				"buffer_size": 4300,
+				"buffer_size": 162,
 				"line_ending": "Unix"
 			}
 		}
@@ -563,7 +547,7 @@
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "css",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -653,14 +637,22 @@
 	"expanded_folders":
 	[
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao",
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-03",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-2",
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-2/js"
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-2/js",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-3/js",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-4",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-4/js"
 	],
 	"file_history":
 	[
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-2/exercicio-2.html",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-3/exercicio-3.html",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-2/js/calculo.js",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-3/js/calculo.js",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-3/resultado.html",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-2/resultado.html",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-1/js/calculo.js",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-1/exercicio-1.html",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-1/js/main.js",
@@ -782,13 +774,7 @@
 		"/home/amargarin/.bash_aliases",
 		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/auth/models.py",
 		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/core/tests/test_helper.py",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/core/models.py",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/auth/templates/terms_of_service_account.html",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/core/templates/base.html",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/core/templates/common/header.html",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/auth/static/js/create_account.js",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/core/static/css/main.css",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/core/middleware.py"
+		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/core/models.py"
 	],
 	"find":
 	{
@@ -817,6 +803,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"data",
+			"qnt_inicial_galinhas",
+			"03",
+			"text",
+			"type=\"text\"a",
+			"qnt_inicial_galinhas",
+			"juro",
+			"                        <input type=\"text\"a name=\"juro\" id=\"id_juro\" class=\"money form-control\" required></input>\n",
+			"saldo",
+			"step=\"0.01\"",
+			"02",
+			"2",
+			"parseValueToFloat(",
+			"parseValoeToFloat",
+			"parseIntValue",
+			"value",
+			"parseFloat",
 			"number",
 			"<th>",
 			"type=\"number\"",
@@ -927,24 +930,7 @@
 			"rjust",
 			"_additional_sign",
 			" ",
-			"fafas 000000000003",
-			" ",
-			"EnvioLoteRPS",
-			"_sign_xml",
-			"generate_xml",
-			"EnvioRPSRequest",
-			"_sign_xml",
-			"def _sign_xml",
-			"_additional_sign",
-			"pull4up",
-			".download_nfse'",
-			"download_nfse",
-			"cancelled",
-			"test_cancel_rps_exception",
-			"FakePluginResponse",
-			"._get_connector'",
-			"._get_connector\"",
-			"_get_connector"
+			"fafas 000000000003"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1002,19 +988,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "aula-07/exercicios/exercicio-2/exercicio-2.html",
+					"file": "aula-07/exercicios/exercicio-4/exercicio-4.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4426,
+						"buffer_size": 1723,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2951,
-								2951
+								971,
+								954
 							]
 						],
 						"settings":
@@ -1024,7 +1010,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1716.0,
+						"translation.y": 364.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1032,19 +1018,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "aula-07/exercicios/exercicio-2/js/calculo.js",
+					"file": "aula-07/exercicios/exercicio-4/js/exibir-data.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1452,
+						"buffer_size": 162,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								555,
-								555
+								150,
+								150
 							]
 						],
 						"settings":
@@ -1054,71 +1040,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 234.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "aula-03/formularios.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1230,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "aula-07/exercicios/exercicio-2/resultado.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4300,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2644,
-								2644
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1235.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1176,6 +1101,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"exercicio-3",
+				"aula-07/exercicios/exercicio-3/exercicio-3.html"
+			],
 			[
 				"requ",
 				"requirements.txt"
@@ -1683,10 +1612,6 @@
 			[
 				"main.c",
 				"src/app/core/static/css/main.css"
-			],
-			[
-				"main.css",
-				"src/app/core/static/css/main.css"
 			]
 		],
 		"width": 0.0
@@ -1694,9 +1619,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "stanki",
 		"selected_items":
 		[
+			[
+				"stanki",
+				"~/Documents/django-projects/private-projects/stanki/stanki.sublime-project"
+			],
 			[
 				"",
 				"~/Documents/django-projects/pull4up/emites/emites.sublime-project"

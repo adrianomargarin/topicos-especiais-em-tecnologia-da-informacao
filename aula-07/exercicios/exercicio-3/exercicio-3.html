@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Exercício 03</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="col-md-6 col-md-offset-3">
+            <h4>Exercício 03</h4>
+            <p>Em um aviário, cada galinha coloca um ovo por mês e este ovo leva dois meses para se tornar uma galinha poedeira. A cada mês morrem 10% das galinhas.</p>
+            <p>Escreva um programa em Javascript que leia dois valores: a quantidade inicial de galinhas e a quantidade final de galinhas.</p>
+            <p>O programa deve calcular quantos meses serão necessários para que a quantidade final de galinhas seja alcançada. Escrever na tela (no HTML5), uma mensagem semelhante a esta: "A partir de XXX galinhas são necessários YYY meses para chegar a ZZZ galinhas."Exemplo: <strong>"A partir de 100 galinhas são necessários 8 meses para chegar a 230 galinhas."</strong></p>
+            <p>Exemplo: <strong>"A partir de 100 galinhas são necessários 8 meses para chegar a 230 galinhas."</strong></p>
+        </div>
+        <div class="col-md-6 col-md-offset-5">
+            <form method="POST">
+                <div class="form-group">
+                    <div class="form-group col-md-5">
+                        <label>Quantidade Inicial de Galinhas</label>
+                        <input type="text" name="qnt_inicial_galinhas" id="id_qnt_inicial_galinhas" class="money form-control" required autofocus></input>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="form-group">
+                    <div class="form-group col-md-5">
+                        <label>Quantidade Final de Galinhas</label>
+                        <input type="text" name="qnt_final_galinhas" id="id_qnt_final_galinhas" class="money form-control" required></input>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="form-group">
+                    <div class="form-group col-md-2">
+                        <input type="submit" class="btn btn-primary" value="Calcular"></input>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.maskmoney.js"></script>
+        <script type="text/javascript" src="js/calculo.js"></script>
+    </body>
+</html>

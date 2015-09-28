@@ -41,8 +41,6 @@ $(document).ready(function(){
         // console.log(saldo_atualizado);
         // debugger
 
-        var table_html = "<table><thead><tr><th>Mês</th><th>Saldo + %</th><th>Saque</th><th>Saldo</th></tr></thead><tbody>";
-
         // while(saldo_atualizado >= parseValueToFloat(saque.val())){
         //     table_html += "<tr><td>" + mes + "</td>";
         //     table_html += "<td>" + saldo_atualizado + "</td>";
@@ -56,20 +54,21 @@ $(document).ready(function(){
         //     debugger;
         // }
 
-        while(saldo_atualizado >= saque.val()){
-            table_html += "<tr><td>" + mes + "</td>";
-            table_html += "<td>" + saldo_atualizado + "</td>";
-            table_html += "<td>" + saque.val() + "</td>";
-            saldo_atualizado = sacar(saldo_atualizado, saque.val());
-            table_html += "<td>" + saldo_atualizado + "</td></tr>";
-            saldo_atualizado = atualizar_saldo(saldo_atualizado.toString(), juro.val());
-            console.log(mes);
-            console.log(saldo_atualizado);
-            mes++;
+        if(saldo_atualizado < saque.val()){
+            var table_html = "<table><thead><tr><th>Mês</th><th>Saldo + %</th><th>Saque</th><th>Saldo</th></tr></thead><tbody>";
+            while(saldo_atualizado >= saque.val()){
+                table_html += "<tr><td>" + mes + "</td>";
+                table_html += "<td>" + saldo_atualizado + "</td>";
+                table_html += "<td>" + saque.val() + "</td>";
+                saldo_atualizado = sacar(saldo_atualizado, saque.val());
+                table_html += "<td>" + saldo_atualizado + "</td></tr>";
+                saldo_atualizado = atualizar_saldo(saldo_atualizado.toString(), juro.val());
+                console.log(mes);
+                console.log(saldo_atualizado);
+                mes++;
+            }
+            table_html += "</tbody></table>";
+            alert(table_html);
         }
-
-        table_html += "</tbody></table>";
-
-
     });
 });

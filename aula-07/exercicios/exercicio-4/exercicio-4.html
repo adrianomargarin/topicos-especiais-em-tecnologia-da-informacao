@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Exercício 04</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="col-md-6 col-md-offset-3">
+            <h4>Exercício 04</h4>
+            <p>Escrever uma página em HTML5 que possua um campo onde o usuário pode digitar uma data no formato DD/MM/AAAA.</p>
+            <p>Esta página deve ter um botão que, quando clicado, escreve a data por extenso.</p>
+            <p>Exemplo:</p>
+            <p>Foi digitado: 16/09/2015</p>
+            <p>Será apresentado: 18 de Setembro de 2015.</p>
+        </div>
+        <div class="col-md-6 col-md-offset-5">
+            <form method="POST">
+                <div class="form-group">
+                    <div class="form-group col-md-5">
+                        <label>Informe a data</label>
+                        <input type="date" name="data_informada" id="id_data_informada" class="form-control" required autofocus></input>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="form-group">
+                    <div class="form-group col-md-2">
+                        <input type="submit" class="btn btn-primary" value="Exibir Data"></input>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.maskmoney.js"></script>
+        <script type="text/javascript" src="js/exibir-data.js"></script>
+    </body>
+</html>
