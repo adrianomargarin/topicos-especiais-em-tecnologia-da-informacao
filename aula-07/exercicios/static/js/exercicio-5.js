@@ -128,6 +128,7 @@ $(document).ready(function(){
             }
         }else{
             $("div#exibir-erro").removeClass("hidden");
+            $("div#exibir-mensagem").addClass("hidden");
         }
     });
 });

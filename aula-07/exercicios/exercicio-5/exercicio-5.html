@@ -44,9 +44,15 @@
                     <li>São aceitos valores (inteiros) até, no máximo, 9999 (nove mil novecentos e noventa e nove).</li>
                 </ul>
             </div>
-            <div class="col-md-6 col-md-offset-5">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="alert alert-info hidden" id="exibir-mensagem"></div>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+                <div class="alert alert-danger hidden" id="exibir-erro">Informe um valor!</div>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
                 <div class="form-group">
-                    <div class="form-group col-md-5">
+                    <div class="form-group">
                         <label>Informe um valor</label>
                         <input type="number" name="valor_informado" id="id_valor_informado" class="form-control" required></input>
                     </div>
@@ -57,12 +63,6 @@
                         <input type="submit" class="btn btn-primary" value="Exibir data por extenso"></input>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4 col-md-offset-4">
-                <div class="alert alert-info hidden" id="exibir-mensagem"></div>
-            </div>
-            <div class="col-md-4 col-md-offset-4">
-                <div class="alert alert-danger hidden" id="exibir-erro">Informe um valor!</div>
             </div>
         </div>
         <script type="text/javascript" src="../static/js/jquery.min.js"></script>

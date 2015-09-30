@@ -520,18 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "aula-07/exercicios/static/js/exercicio-5.js",
-			"settings":
-			{
-				"buffer_size": 3393,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "aula-07/exercicios/exercicio-5/exercicio-5.html",
 			"settings":
 			{
-				"buffer_size": 3981,
+				"buffer_size": 3972,
 				"line_ending": "Unix"
 			}
 		}
@@ -636,6 +628,10 @@
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-1",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-2",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-3",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-4",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-5",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/static",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/static/js",
@@ -643,12 +639,17 @@
 	],
 	"file_history":
 	[
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-1/exercicio-1.html",
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-5/exercicio-5.html",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-4/exercicio-4.html",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-3/exercicio-3.html",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/static/js/exercicio-5.js",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/static/js/exercicio-4.js",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/static/js/exercicio-3.js",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/static/js/exercicio-1.js",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/static/js/exercicio-2.js",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-2/exercicio-2.html",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-1/exercicio-1.html",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/index.html",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-5/exercicio-5.html",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-5/js/exibir-valor.js",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-4/js/exibir-data.js",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-2/js/calculo.js",
@@ -765,12 +766,7 @@
 		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/nfse/tests/test_signals.py",
 		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/auth/views.py",
 		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/auth/urls.py",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/auth/tests/helper.py",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/auth/mixins.py",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/auth/tests/test_views.py",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/auth/utils.py",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/auth/tests/test_mixins.py",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/auth/middleware.py"
+		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/auth/tests/helper.py"
 	],
 	"find":
 	{
@@ -799,6 +795,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"4",
+			"5",
+			"col-md-5",
+			"6 col-md-offset-3",
 			"'",
 			"''",
 			"'",
@@ -922,11 +922,7 @@
 			"2472a4",
 			"#2980b9",
 			"ds:",
-			"converage",
-			"infNFE",
-			"+w==",
-			"REF292ienQRykN2WdWCKwYdmNjzRT4CxmDX3Hk+glY0NH52y96bp+Ns0UrV82vpkLQjl+vz/nfJUvq41gX3VvuSyDzgdD8/K5Y8sTk5KUsW9u815TvkcGCfR+Cwg4hopp7/pf5YtwfRHzQiFULbVUpRApqHAUbphDQ3Qxh2YVMaxDE8qbGsvGRwp12uyHy24MtdzhPZFrbju24dDllBqZBnFMIO8n9Cg1OYijIXvl2CRI9EzI1f12WfA9tiycqmMWs3tF3TUAABzJH+Fc8qymBFguC9u7jILevF1SvqDOz/5eG6TDa+k43jMkNWRtXAc73wPPz03X6piORaL9eCt+w==",
-			"7uhlnH7Udz2T6BISM2sw"
+			"converage"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -984,49 +980,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "aula-07/exercicios/static/js/exercicio-5.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3393,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2577,
-								2577
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2229.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "aula-07/exercicios/exercicio-5/exercicio-5.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3981,
+						"buffer_size": 3972,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1864,
-								1864
+								2448,
+								2448
 							]
 						],
 						"settings":
@@ -1036,10 +1002,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 312.0,
+						"translation.y": 936.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

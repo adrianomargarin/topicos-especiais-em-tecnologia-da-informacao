@@ -23,6 +23,7 @@ $(document).ready(function(){
             $("div#exibir-mensagem").html("A partir de " + qnt_inicial_galinhas + " galinhas são necessários " + meses + " meses para chegar a " + qnt_final_galinhas + " galinhas.");
         }else{
             $("div#exibir-erro").removeClass("hidden");
+            $("div#exibir-mensagem").addClass("hidden");
         }
     });
 });

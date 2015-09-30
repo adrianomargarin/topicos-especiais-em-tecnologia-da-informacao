@@ -30,6 +30,7 @@ $(document).ready(function(){
             // debugger;
         }else{
             $("div#exibir-erro").removeClass("hidden");
+            $("div#exibir-mensagem").addClass("hidden");
         }
     });
 });
