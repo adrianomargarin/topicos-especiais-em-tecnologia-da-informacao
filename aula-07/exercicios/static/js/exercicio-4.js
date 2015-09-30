@@ -18,11 +18,18 @@ $(document).ready(function(){
         return meses[mes];
     };
 
-    $("form").submit(function(){
+    $("input[type='submit']").click(function(){
         var data_informada = $("#id_data_informada").val();
-        var data_por_extenso = data_informada.split("-")[2];
-        data_por_extenso += verifica_mes(data_informada.split("-")[1]);
-        data_por_extenso += data_informada.split("-")[1];
-        document.write(data_por_extenso);
+        if(data_informada){
+            var data_por_extenso = data_informada.split("-")[2];
+            data_por_extenso += verifica_mes(data_informada.split("-")[1]);
+            data_por_extenso += data_informada.split("-")[0];
+            $("div#exibir-erro").addClass("hidden");
+            $("div#exibir-mensagem").removeClass("hidden");
+            $("div#exibir-mensagem").html(data_por_extenso);
+            // debugger;
+        }else{
+            $("div#exibir-erro").removeClass("hidden");
+        }
     });
 });

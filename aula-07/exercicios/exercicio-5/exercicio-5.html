@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Exercício 04</title>
+        <title>Exercício 05</title>
         <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
     </head>
     <body>
@@ -24,26 +24,31 @@
                                 <li><a href="../exercicio-1/exercicio-1.html">Exercício 1</a></li>
                                 <li><a href="../exercicio-2/exercicio-2.html">Exercício 2</a></li>
                                 <li><a href="../exercicio-3/exercicio-3.html">Exercício 3</a></li>
-                                <li class="active"><a href="exercicio-4.html">Exercício 4</a></li>
-                                <li><a href="../exercicio-5/exercicio-5.html">Exercício 5</a></li>
+                                <li><a href="../exercicio-4/exercicio-4.html">Exercício 4</a></li>
+                                <li class="active"><a href="exercicio-5.html">Exercício 5</a></li>
                             </ul>
                         </ul>
                     </div>
                 </div>
             </nav>
             <div class="col-md-6 col-md-offset-3">
-                <h4>Exercício 04</h4>
-                <p>Escrever uma página em HTML5 que possua um campo onde o usuário pode digitar uma data no formato DD/MM/AAAA.</p>
-                <p>Esta página deve ter um botão que, quando clicado, escreve a data por extenso.</p>
+                <h4>Exercício 05</h4>
+                <p>Escrever uma página em HTML5 que possua um campo onde o usuário pode digitar um valor.</p>
+                <p>Esta página deve ter um botão que, quando clicado, escreve este valor por extenso.</p>
                 <p>Exemplo:</p>
-                <p>Foi digitado: 16/09/2015</p>
-                <p>Será apresentado: 18 de Setembro de 2015.</p>
+                <p>Foi digitado: 123</p>
+                <p>Será apresentado: Cento e Vinte e Três</p>
+                <p>Observação:</p>
+                <ul>
+                    <li>Entrar somente valores inteiros. Se o usuário digitou um número fracionário, arredondá-lo (usar a função Math.round);</li>
+                    <li>São aceitos valores (inteiros) até, no máximo, 9999 (nove mil novecentos e noventa e nove).</li>
+                </ul>
             </div>
             <div class="col-md-6 col-md-offset-5">
                 <div class="form-group">
                     <div class="form-group col-md-5">
-                        <label>Informe a data</label>
-                        <input type="date" name="data_informada" id="id_data_informada" class="form-control" required autofocus></input>
+                        <label>Informe um valor</label>
+                        <input type="number" name="valor_informado" id="id_valor_informado" class="form-control" required></input>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -57,12 +62,12 @@
                 <div class="alert alert-info hidden" id="exibir-mensagem"></div>
             </div>
             <div class="col-md-4 col-md-offset-4">
-                <div class="alert alert-danger hidden" id="exibir-erro">Informe uma data!</div>
+                <div class="alert alert-danger hidden" id="exibir-erro">Informe um valor!</div>
             </div>
         </div>
         <script type="text/javascript" src="../static/js/jquery.min.js"></script>
         <script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="../static/js/jquery.maskmoney.js"></script>
-        <script type="text/javascript" src="../static/js/exercicio-4.js"></script>
+        <script type="text/javascript" src="../static/js/exercicio-5.js"></script>
     </body>
 </html>
