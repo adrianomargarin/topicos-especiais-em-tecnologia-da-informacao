@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Exercício 02</title>
+        <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=  "  #bs  -example-navbar-collapse-9" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="../index.html">Inicio</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+                        <ul class="nav navbar-nav">
+                            <ul class="nav navbar-nav">
+                                <li><a href="../exercicio-1/exercicio-1.html">Exercício 1</a></li>
+                                <li class="active"><a href="exercicio-2.html">Exercício 2</a></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="col-md-12">
+                <p>Elaborar o seguinte formulário:</p>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+                <figure>
+                    <img src="../static/img/exemplo-exercicio-2.png" alt="Exemplo Exercício 2" title="Exemplo Exercício 2" width="400px">
+                    <figcaption><strong>Figura 2 - Layout de Página</strong></figcaption>
+                </figure>
+            </div>
+            <div class="col-md-12">
+                <p><strong>Instruções:</strong></p>
+                <ol>
+                    <li>Criar o formulário acima (figura 2) em HTML5</li>
+                    <li>Verificar se a senha digitada é uma senha válida ou inválida (exibir uma mensagem).</li>
+                    <li>Verificar se a senha foi digitada corretamente nos dois campos de senha (exibir uma mensagem).</li>
+                    <li>Neste exercício vamos considerar uma <strong>senha válida</strong> a senha que obedece as seguintes instruções:</li>
+                    <ol type="a">
+                        <li>Mínimo de 6 caracteres e máximo de 10 caracteres</li>
+                        <li>Deve possuir, pelo menos, um dos seguintes caracteres especiais ( ! @ # $ % & )</li>
+                        <li>Deve possuir, pelo menos, uma letra maiúscula</li>
+                        <li>Deve possuir, pelo menos, um caractere numérico.</li>
+                    </ol>
+                </ol>
+            </div>
+            <div class="col-md-8 form-horizontal">
+                <div class="alert alert-danger hidden" id="exibir-erro"></div>
+                <div class="alert alert-success hidden" id="exibir-mensagem"></div>
+
+                <div class="form-group">
+                    <label for="nome" class="col-md-3 control-label">Nome</label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" id="id_nome">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="senha_1" class="col-md-3 control-label">Senha</label>
+                    <div class="col-md-9">
+                        <input type="password" class="form-control" id="id_senha_1">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="senha_2" class="col-md-3 control-label">Re-Digite a Senha</label>
+                    <div class="col-md-9">
+                        <input type="password" class="form-control" id="id_senha_2">
+                    </div>
+                </div>
+                <input type="submit" class="btn btn-success pull-right" value="OK">
+            </div>
+        </div>
+        <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+        <script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../static/js/exercicio-2.js"></script>
+    </body>
+</html>

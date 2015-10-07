@@ -4,6 +4,94 @@
 		"selected_items":
 		[
 			[
+				"vali",
+				"validar_senha"
+			],
+			[
+				"senha",
+				"senha_2"
+			],
+			[
+				"senh",
+				"senha_2"
+			],
+			[
+				"valida",
+				"validar_igualdade"
+			],
+			[
+				"se",
+				"senha_2"
+			],
+			[
+				"conu",
+				"consumo_aparelho"
+			],
+			[
+				"tr",
+				"tr_table"
+			],
+			[
+				"valor",
+				"valor_hora"
+			],
+			[
+				"cent",
+				"centena"
+			],
+			[
+				"centea",
+				"centenas"
+			],
+			[
+				"num",
+				"numero"
+			],
+			[
+				"de",
+				"dezenas"
+			],
+			[
+				"deze",
+				"dezenas"
+			],
+			[
+				"nume",
+				"numero_por_extenso"
+			],
+			[
+				"numer",
+				"numero"
+			],
+			[
+				"cente",
+				"centenas"
+			],
+			[
+				"numero",
+				"numero_por_extenso"
+			],
+			[
+				"des",
+				"dezenas"
+			],
+			[
+				"dezena",
+				"dezena2"
+			],
+			[
+				"ce",
+				"centenas"
+			],
+			[
+				"numeor",
+				"numero_por_extenso"
+			],
+			[
+				"numoe",
+				"numero_por_extenso"
+			],
+			[
 				"sal",
 				"saldo"
 			],
@@ -336,10 +424,6 @@
 				"DATA"
 			],
 			[
-				"se",
-				"serializer"
-			],
-			[
 				"lo",
 				"lookup_type"
 			],
@@ -430,100 +514,40 @@
 			[
 				"nfse",
 				"nfse_liquid_amount"
-			],
-			[
-				"clean",
-				"cleaned_data"
-			],
-			[
-				"ec",
-				"except"
-			],
-			[
-				"Ro",
-				"ROUND_DOWN"
-			],
-			[
-				"obje",
-				"object"
-			],
-			[
-				"clean_",
-				"clean_taker_cnpj"
-			],
-			[
-				"VA",
-				"ValidationError"
-			],
-			[
-				"ge",
-				"get_context_data"
-			],
-			[
-				"emiter",
-				"emitter"
-			],
-			[
-				"or",
-				"order_by"
-			],
-			[
-				"per",
-				"person_type"
-			],
-			[
-				"l",
-				"li	Tag"
-			],
-			[
-				"BA",
-				"backend_class"
-			],
-			[
-				"ci",
-				"city_code"
-			],
-			[
-				"en",
-				"environment"
-			],
-			[
-				"clean_en",
-				"test_clean_environment"
-			],
-			[
-				"emi",
-				"emitter"
-			],
-			[
-				"ciy",
-				"city_inscription"
-			],
-			[
-				"cleane",
-				"cleaned_data"
-			],
-			[
-				"ex",
-				"except"
-			],
-			[
-				"pro",
-				"production"
-			],
-			[
-				"o",
-				"objects"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "aula-07/exercicios/exercicio-5/exercicio-5.html",
+			"file": "aula-08/exercicios/exercicio-2/exercicio-2.html",
 			"settings":
 			{
-				"buffer_size": 3972,
+				"buffer_size": 4480,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "aula-08/exercicios/static/js/exercicio-2.js",
+			"settings":
+			{
+				"buffer_size": 2269,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "aula-07/exercicios/index.html",
+			"settings":
+			{
+				"buffer_size": 2120,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "aula-08/exercicios/static/js/exercicio-1.js",
+			"settings":
+			{
+				"buffer_size": 1930,
 				"line_ending": "Unix"
 			}
 		}
@@ -535,24 +559,32 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 400.0,
-		"last_filter": "",
+		"height": 273.0,
+		"last_filter": "lista",
 		"selected_items":
 		[
 			[
-				"css",
-				"Format CSS: Expanded"
+				"lista",
+				"Package Control: List Packages"
 			],
 			[
-				"ins",
+				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"evalu",
+				"Snippet: Object Value JS"
 			],
 			[
 				"insta",
 				"Package Control: Install Package"
 			],
 			[
-				"install",
+				"css",
+				"Format CSS: Expanded"
+			],
+			[
+				"ins",
 				"Package Control: Install Package"
 			],
 			[
@@ -604,7 +636,7 @@
 				"Convert Case: Swap Case"
 			]
 		],
-		"width": 457.0
+		"width": 475.0
 	},
 	"console":
 	{
@@ -626,30 +658,41 @@
 	"expanded_folders":
 	[
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-02",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-1",
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-2",
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-3",
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-4",
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-5",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/static",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/static/js",
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/static/pdf"
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-08",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-08/exercicios",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-08/exercicios/exercicio-1",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-08/exercicios/exercicio-2",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-08/exercicios/static",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-08/exercicios/static/js"
 	],
 	"file_history":
 	[
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-08/exercicios/exercicio-1/exercicio-1.html",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-08/exercicios/static/js/exercicio-1.js",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/static/js/exercicio-1.js",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-1/exercicio-1.html",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-08/exercicios/index.html",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-08/exercicios/static/js/exercicio-2.js",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-08/exercicios/exercicio-2/exercicio-2.html",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-4/exercicio-4.html",
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-3/exercicio-3.html",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-5/exercicio-5.html",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/index.html",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/numero_extenso.js",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/static/js/exercicio-5.js",
+		"/home/adrianomargarin/Downloads/Exercícios JS/exercicios_js.js",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/topicos-especiais-em-tecnologia-da-informacao.sublime-project",
+		"/home/adrianomargarin/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-3/exercicio-3.html",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/static/js/exercicio-4.js",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/static/js/exercicio-3.js",
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/static/js/exercicio-1.js",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/static/js/exercicio-2.js",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-2/exercicio-2.html",
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-1/exercicio-1.html",
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/index.html",
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-5/exercicio-5.html",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-5/js/exibir-valor.js",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-4/js/exibir-data.js",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/exercicio-2/js/calculo.js",
@@ -690,7 +733,6 @@
 		"/home/adrianomargarin/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-02/exercicio-html5.html",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-02/basic.html",
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/topicos-especiais-em-tecnologia-da-informacao.sublime-project",
 		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/teste_envio_lote_rps.rb",
 		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/certificate.pem",
 		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/key.pem",
@@ -758,15 +800,7 @@
 		"/home/amargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/notapaulista/script_test.py",
 		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/nfse/tasks.py",
 		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/nfse/models.py",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/nfse/tests/helper.py",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/nfse/tests/test_tasks.py",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/auth/templates/terms_of_service.html",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/nfse/tests/test_models.py",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/nfse/signals.py",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/nfse/tests/test_signals.py",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/auth/views.py",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/auth/urls.py",
-		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/auth/tests/helper.py"
+		"/home/amargarin/Documents/django-projects/pull4up/emites/src/app/nfse/tests/helper.py"
 	],
 	"find":
 	{
@@ -795,6 +829,41 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"{1,10}",
+			"senha_1",
+			" !== \"\"",
+			"error",
+			"div#",
+			"10",
+			"2",
+			"senha_1",
+			"Nome",
+			"nome",
+			"sm",
+			"<label",
+			"label",
+			"aparelho",
+			"hora",
+			"Hora",
+			"hora",
+			"Hora",
+			"hora",
+			"valor_hora",
+			"aparelho",
+			"p",
+			"Adriano Margarin",
+			"&&",
+			" + \"00\"",
+			"!==",
+			"milhar === 0 && centena !== 0 && dezena === 0 && numero !== 0",
+			"dezenas2",
+			"  ",
+			"00",
+			"?",
+			"20",
+			"exteno",
+			"numeral",
+			", ",
 			"4",
 			"5",
 			"col-md-5",
@@ -887,42 +956,7 @@
 			"Signature",
 			"<Signature",
 			"keyfactory",
-			"\\n",
-			"Signature",
-			"<SignedInfo xmlns=\\\"http://www.w3.org/2000/09/xmldsig#\\\"><CanonicalizationMethod Algorithm=\\\"http://www.w3.org/2001/10/xml-exc-c14n#\\\"></CanonicalizationMethod><SignatureMethod Algorithm=\\\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\\\"></SignatureMethod><Reference URI=\\\"\\\"><Transforms><Transform Algorithm=\\\"http://www.w3.org/TR/2001/REC-xml-c14n-20010315\\\"></Transform></Transforms><DigestMethod Algorithm=\\\"http://www.w3.org/2000/09/xmldsig#sha1\\\"></DigestMethod><DigestValue>Ivlj6PMBc/qo7P2Cpyd9a7CO30A=</DigestValue></Reference></SignedInfo>",
-			"_sign_xml",
-			"KremLNJnhIkbDieL4/6p/kZ54atiFmSdIKKCdT+EeuNjrmDPR+8jo19mCVVS0sXCSjKqQlLsdSsKFixpKVYG5QDfZOrsJGTQZ2ZXRpMdFP8jF9fLP4mZiXC7gyOWF/UUb3duzSwsLaBI6M5NJ9TWyxBlDp/aQu7T2jaz68Yjl6Sk9D10CRGV+hZMvO1lKgRAOaNqO7AzJTqr08EEammjBNRSEQ9M+4l8NNxBMSb7vL7/KUOrFM7Ekm3MsciJSXtg2hfhi6M8wl0bKkfVXTACW6FoOmCGPZytmlzeJNbBwA9KYwmsMK0mbxC0hrot9lec5qLHJmhYK93U/rneWuo6yQ==",
-			"6hQwDBWK+piZOp4LWlxbRr1dkM4=",
-			"2.2.2 ",
-			"2.2.2",
-			"<",
-			"Signature(",
-			"signature",
-			"Signature",
-			"signature",
-			"Signature",
-			"signature",
-			"Signature",
-			"_sign_xml",
-			"xml",
-			"dsig:",
-			"ds:",
-			"#3091d1",
-			"a:hover",
-			":hover",
-			")\n",
-			"ds:",
-			":hover",
-			"#404040",
-			"#b5a5d1",
-			"#B5A5D1",
-			"#00A551",
-			"#00A551 ",
-			"#2472a4",
-			"2472a4",
-			"#2980b9",
-			"ds:",
-			"converage"
+			"\\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -975,24 +1009,28 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "aula-07/exercicios/exercicio-5/exercicio-5.html",
+					"file": "aula-08/exercicios/exercicio-2/exercicio-2.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3972,
+						"buffer_size": 4480,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2448,
-								2448
+								3686,
+								3686
+							],
+							[
+								4003,
+								4003
 							]
 						],
 						"settings":
@@ -1002,10 +1040,120 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 1339.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "aula-08/exercicios/static/js/exercicio-2.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1621,
+								1621
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
 						"translation.y": 936.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "aula-07/exercicios/index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "aula-08/exercicios/static/js/exercicio-1.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1930,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1556,
+								1556
+							],
+							[
+								1606,
+								1606
+							],
+							[
+								1663,
+								1663
+							],
+							[
+								1752,
+								1752
+							],
+							[
+								1817,
+								1817
+							],
+							[
+								1870,
+								1870
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 403.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1049,6 +1197,10 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 164.0
 	},
 	"pinned_build_system": "",
 	"project": "topicos-especiais-em-tecnologia-da-informacao.sublime-project",
@@ -1581,12 +1733,16 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "emites",
 		"selected_items":
 		[
 			[
-				"",
+				"emites",
 				"~/Documents/django-projects/pull4up/emites/emites.sublime-project"
+			],
+			[
+				"",
+				"~/Documents/github-projects/notari/notari.sublime-project"
 			],
 			[
 				"emite",

@@ -20,7 +20,7 @@ $(document).ready(function(){
         var primeiro_numero = $("#id_primeiro_numero").val();
         var segundo_numero = $("#id_segundo_numero").val();
 
-        if(primeiro_numero && segundo_numero){
+        if(primeiro_numero && segundo_numero && primeiro_numero != 0 && segundo_numero != 0){
             if(primeiro_numero > segundo_numero){
                 dividendo = primeiro_numero;
                 divisor = segundo_numero;
