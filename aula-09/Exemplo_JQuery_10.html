@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	  <meta charset="utf-8">
+      <title>JQuery 9</title>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	  <script>
+		/*Cifrão para se referir a um elemento. Neste caso "document", ou seja, todo o documento.
+		  ready informa que o comando deve ser executado quando o document está pronto, ou seja, carregado/navegável.*/
+		$(document).ready(function(){
+			$("button").click(function(){
+				if($("#id_campo1").val() != $("#id_campo2").val()) {
+					alert("Favor preencher os campos corretamente!");
+				}
+				else{
+					alert("Campos preenchidos corretamente!");
+				}
+			});
+		});
+		</script>
+		<style>
+			.fundo{background-color: lightblue;
+				   color: white;}
+		</style>
+	</head>
+	<body>
+		<h1>Teste</h1>
+		<label>Campo 1:</label>
+		<input type="text" id="id_campo1" size = "30" maxlength = "30" autofocus/>
+		<br/>
+		<br/>
+		<label>Campo 2:</label>
+		<input type="text" id="id_campo2" size = "30" maxlength = "30"/>
+		<br/>
+		<br/>
+		<button>Testar Equivalência</button>
+	</body>
+</html>

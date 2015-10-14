@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	  <meta charset="utf-8">
+      <title>JQuery</title>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	  <script>
+
+		/*Cifrão para se referir a um elemento. Neste caso "document", ou seja, todo o documento.
+		  ready informa que o comando deve ser executado quando o document está pronto, ou seja, carregado/navegável.*/
+		$(document).ready(function(){
+			/* AQUI SUAS INSTRUÇÕES */
+			$("button").click(function(){
+				$("p").hide();
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<h1>Teste</h1>
+		<p>Este é um parágrafo.</p>
+		<p id="teste">Este é um parágrafo marcado com o id "teste".</p>
+		<p class="teste2">Este é um parágrafo marcado com a classe "teste2"</p>
+		<p class="teste2">Este é mais um parágrafo marcado com a classe "teste2"</p>
+		<br/>
+		<button>Clique</button>
+		<br/>
+		<br/>
+		<a href="http://www.ucs.br"/>UCS</a>
+		<br/>
+		<a href="http://www.terra.com.br"/>Terra</a>
+		<br/>
+		<h2>Tabela Teste</h2>
+		<table border="1">
+			<tr>
+				<th>Empresa</th>
+				<th>País</th>
+			</tr>
+			<tr>
+				<td>Volkswagem</td>
+				<td>Alemanha</td>
+			</tr>
+			<tr>
+				<td>Ford</td>
+				<td>Estados Unidos</td>
+			</tr>
+			<tr>
+				<td>Fiat</td>
+				<td>Itália</td>
+			</tr>
+
+	</body>
+</html>

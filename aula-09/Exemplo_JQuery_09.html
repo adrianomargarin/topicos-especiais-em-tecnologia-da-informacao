@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	  <meta charset="utf-8">
+      <title>JQuery 9</title>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	  <script>
+		/*Cifrão para se referir a um elemento. Neste caso "document", ou seja, todo o documento.
+		  ready informa que o comando deve ser executado quando o document está pronto, ou seja, carregado/navegável.*/
+		$(document).ready(function(){
+			$("button").click(function(){
+				$("#lista_teste1").find("li").each(function(){
+					$(this).html($(this).html()+ " olá");
+					$(this).addClass("fundo");
+				});
+			});
+		});
+		</script>
+		<style>
+			.fundo{background-color: lightblue;
+				   color: white;}
+		</style>
+	</head>
+	<body>
+		<h1>Teste</h1>
+		<ul id="lista_teste1">
+			<li>Fusca</li>
+			<li>Kombi</li>
+			<li>Variant</li>
+		</ul>
+		<ul id="lista_teste2">
+			<li>Opala</li>
+			<li>Monza</li>
+			<li>Chevette</li>
+		</ul>
+		<button>Clique</button>
+	</body>
+</html>

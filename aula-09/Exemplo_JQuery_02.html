@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	  <meta charset="utf-8">
+      <title>JQuery 2</title>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	  <script>
+
+		/*Cifrão para se referir a um elemento. Neste caso "document", ou seja, todo o documento.
+		  ready informa que o comando deve ser executado quando o document está pronto, ou seja, carregado/navegável.*/
+		$(document).ready(function(){
+			/* AQUI SUAS INSTRUÇÕES */
+			$("p#p_1, p#p_2, p#p_3").click(function(){
+				$(this).hide();
+			});
+			$("p#p_4, p#p_5").dblclick(function(){
+				$(this).hide();
+			});
+			$("p#p_6").mouseenter(function(){
+				$(this).hide();
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<h1>Teste</h1>
+		<p id="p_1">Se você me clicar eu vou desaparecer.</p>
+		<p id="p_2">Eu também quero desaparecer!</p>
+		<p id="p_3">Eu também quero ser clicado!</p>
+		<p id="p_4">Se você me clicar duas vezes eu vou desaparecer.</p>
+		<p id="p_5">Eu também quero ser clicado duas vezes!</p>
+		<p id="p_6">Se você posicionar o mouse sobre mim eu vou desaparecer!</p>
+	</body>
+</html>

@@ -58,4 +58,6 @@ $(document).ready(function(){
     // console.log(validar_senha("1234567Aa#"));
     // console.log(validar_senha("123#aA"));
     // console.log(validar_senha("123#5A"));
+    // console.log(validar_senha("A23#5A"));
+    // console.log(validar_senha("%23#5A"));
 });

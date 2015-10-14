@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	  <meta charset="utf-8">
+      <title>JQuery 3</title>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	  <script>
+
+		/*Cifrão para se referir a um elemento. Neste caso "document", ou seja, todo o documento.
+		  ready informa que o comando deve ser executado quando o document está pronto, ou seja, carregado/navegável.*/
+		$(document).ready(function(){
+			/* AQUI SUAS INSTRUÇÕES */
+			$("p").on({
+				mouseenter: function(){
+					$(this).css("background-color","lightgray");
+				},
+				mouseleave:function(){
+					$(this).css("background-color","lightblue");
+				},
+				click:function(){
+					$(this).css("background-color","yellow");
+				}
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<h1>Teste</h1>
+		<p>Clique ou posicione o mouse sobre este parágrafo.</p>
+		<p>Clique ou posicione o mouse sobre este parágrafo.</p>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	  <meta charset="utf-8">
+      <title>JQuery 5</title>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	  <script>
+
+		/*Cifrão para se referir a um elemento. Neste caso "document", ou seja, todo o documento.
+		  ready informa que o comando deve ser executado quando o document está pronto, ou seja, carregado/navegável.*/
+		$(document).ready(function(){
+			/* AQUI SUAS INSTRUÇÕES */
+			$("div").hide();
+			$("#esconder").hide();
+			$("#mostrar").click(function(){
+				$("div").fadeIn("slow");
+				$("#esconder").show();
+				$("#mostrar").hide();
+			});
+			$("#esconder").click(function(){
+				$("div").fadeOut("slow");
+				$("#esconder").hide();
+				$("#mostrar").show();
+			});
+
+		});
+		</script>
+	</head>
+	<body>
+		<div style="width:80px; height:80px;background-color:red;"></div>
+		<br/>
+		<button id="mostrar">Mostrar</button>
+		<br/>
+		<button id="esconder">Esconder</button>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	  <meta charset="utf-8">
+      <title>JQuery 4</title>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	  <script>
+
+		/*Cifrão para se referir a um elemento. Neste caso "document", ou seja, todo o documento.
+		  ready informa que o comando deve ser executado quando o document está pronto, ou seja, carregado/navegável.*/
+		$(document).ready(function(){
+			/* AQUI SUAS INSTRUÇÕES */
+			/*$("p").click(function(){
+				$(this).hide("slow");
+			});*/
+			$("p").hide();
+			$("button").click(function(){
+				$("p").show("slow");
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<p>Apareci devagar.</p>
+		<p>Eu também quero aparecer devagar</p>
+		<button>Exibir a Página</button>
+	</body>
+</html>

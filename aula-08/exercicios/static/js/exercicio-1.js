@@ -41,8 +41,8 @@ $(document).ready(function(){
             $("input[type='text'], input[type='number']").val("");
 
             $("#exibir-erro").addClass("hidden");
-            $("#exibir-mensagem").removeClass("hidden");
             $("#exibir-mensagem").html("Aparelho inserido com sucesso.");
+            $("#exibir-mensagem").removeClass("hidden");
         }else{
             $("#exibir-erro").html("Informe todos os valores.");
             $("#exibir-erro").removeClass("hidden");
