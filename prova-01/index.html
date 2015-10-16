@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Prova 01</title>
+        <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="static/css/bootstrap-theme.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs  -example-navbar-collapse-9" aria-expanded="false">
+                            <span class="sr-only">Navegação</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Comércio Eletrônico - Adriano Margarin</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+                        <ul class="nav navbar-nav">
+                            <ul class="nav navbar-nav">
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Carrinho de compras</h3>
+                </div>
+                <div class="panel-body">
+                    <div id="id_carrinho_vazio">
+                        Nenhum item adicionado ao carrinho.
+                    </div>
+                    <div id="id_carrinho_com_itens" class="hidden">
+                        <table class="table table-condensed table-bordered">
+                            <thead>
+                                <th>Produto</th>
+                                <th>Valor Unitário</th>
+                                <th>Quantidade</th>
+                                <th>Valor Total Produto</th>
+                                <th>Ações</th>
+                            </thead>
+                            <tbody></tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3" class="text-right"><strong>Total:</strong></td>
+                                    <td id="id_total"></td>
+                                    <td></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="static/img/capacete-1.jpg" alt="...">
+                        <div class="caption produto_1">
+                            <h3>Capacete BMX Elleven 1</h3>
+                            <p>Tamanho: L</p>
+                            <p>Preço: R$ <span>100,00</span></p>
+                            <div class="input-group">
+                                <input type="number" class="form-control">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary produto" id="produto_1" type="button">Adicionar no carrinho</button>
+                                </span>
+                            </div>
+                            <p><div class='produto_1_hidden hidden alert alert-danger'>Informe a quantidade maior que ZERO!</div></p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="static/img/capacete-2.jpg" alt="...">
+                        <div class="caption produto_2">
+                            <h3>Capacete BMX Elleven 2</h3>
+                            <p>Tamanho: L</p>
+                            <p>Preço: R$ <span>100,00</span></p>
+                            <div class="input-group">
+                                <input type="number" class="form-control">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary produto" id="produto_2" type="button">Adicionar no carrinho</button>
+                                </span>
+                            </div>
+                            <p><div class='produto_2_hidden hidden alert alert-danger'>Informe a quantidade maior que ZERO!</div></p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="static/img/capacete-3.jpg" alt="...">
+                        <div class="caption produto_3">
+                            <h3>Capacete Damatta RF-05 B/L</h3>
+                            <p>Tamanho: L</p>
+                            <p>Preço: R$ <span>100,00</span></p>
+                            <div class="input-group">
+                                <input type="number" class="form-control">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary produto" id="produto_3" type="button">Adicionar no carrinho</button>
+                                </span>
+                            </div>
+                            <p><div class='produto_3_hidden hidden alert alert-danger'>Informe a quantidade maior que ZERO!</div></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="static/img/bermuda-1.jpg" alt="...">
+                        <div class="caption produto_4">
+                            <h3>Bermuda ciclismo OGGI</h3>
+                            <p>Tamanho: G/GG</p>
+                            <p>Preço: R$ <span>100,00</span></p>
+                            <div class="input-group">
+                                <input type="number" class="form-control">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary produto" id="produto_4" type="button">Adicionar no carrinho</button>
+                                </span>
+                            </div>
+                            <p><div class='produto_4_hidden hidden alert alert-danger'>Informe a quantidade maior que ZERO!</div></p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="static/img/bermuda-2.jpg" alt="...">
+                        <div class="caption produto_5">
+                            <h3>Bermuda ciclismo OGGI Hacker</h3>
+                            <p>Tamanho: G/GG</p>
+                            <p>Preço: R$ <span>100,00</span></p>
+                            <div class="input-group">
+                                <input type="number" class="form-control">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary produto" id="produto_5" type="button">Adicionar no carrinho</button>
+                                </span>
+                         </div>
+                         <p><div class='produto_5_hidden hidden alert alert-danger'>Informe a quantidade maior que ZERO!</div></p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="static/img/bermuda-3.jpg" alt="...">
+                        <div class="caption produto_6">
+                            <h3>Bermuda Refactor</h3>
+                            <p>Tamanho: G</p>
+                            <p>Preço: R$ <span>100,00</span></p>
+                            <div class="input-group">
+                                <input type="number" class="form-control">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary produto" id="produto_6" type="button">Adicionar no carrinho</button>
+                                </span>
+                            </div>
+                            <p><div class='produto_6_hidden hidden alert alert-danger'>Informe a quantidade maior que ZERO!</div></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="static/js/jquery.min.js"></script>
+        <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="static/js/prova.js"></script>
+    </body>
+</html>
