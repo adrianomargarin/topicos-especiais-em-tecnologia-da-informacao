@@ -1,19 +1,17 @@
 <?php
     include('conexao.php');
-    $MATRICULA = mysql_query("select * from matricula where id='".$_POST["id"]."'");
-    $ROWMATRICULA = mysql_fetch_array($MATRICULA);
-    $DISCIPLINA = mysql_query("select * from disciplina where codigo like '%".$ROWMATRICULA["codigo_disciplina"]."%'");
+    $sql = "SELECT * FROM matricula INNER JOIN disciplina WHERE matricula.horario='".$_POST["horario"]."' and (matricula.codigo_disciplina = disciplina.codigo)";
+    $MATRICULA = mysql_query($sql);
 
-    // var_dump(mysql_fetch_array($DISCIPLINA));
     $json_array = array();
-    while($row = mysql_fetch_array($DISCIPLINA)){
+    while($row = mysql_fetch_array($MATRICULA)){
         $json_array[] = array(
             "carga_horaria" => $row["carga_horaria"],
             "descricao" => $row["descricao"],
             "credito" => $row["creditos"],
-            "codigo_turno" => $ROWMATRICULA["codigo_turno"],
-            "codigo" => $ROWMATRICULA["codigo_disciplina"],
-            "horario" => $ROWMATRICULA["horario"],
+            "codigo_turno" => $row["codigo_turno"],
+            "codigo" => $row["codigo_disciplina"],
+            "horario" => $row["horario"],
         );
     }
     mysql_close($CONEXAO);

@@ -23,7 +23,7 @@
                             <option value="">Selecione uma disciplina</option>
                             <?php
                                 include('conexao.php');
-                                $RESULT = mysql_query("select * from disciplina");
+                                $RESULT = mysql_query("SELECT * FROM disciplina");
                                 while($row = mysql_fetch_array($RESULT)){
                                     echo '<option value="'.$row["id"].'">'.$row["descricao"].'</option>';
                                 }
@@ -56,7 +56,7 @@
                             <option value="">Selecione um horário</option>
                             <?php
                                 include('conexao.php');
-                                $RESULT = mysql_query("select * from matricula");
+                                $RESULT = mysql_query("SELECT DISTINCT horario horario FROM matricula ORDER BY horario");
                                 while($row = mysql_fetch_array($RESULT)){
                                     echo '<option value="'.$row["horario"].'">'.$row["horario"].'</option>';
                                 }

@@ -41,7 +41,7 @@ $(document).ready(function(){
                 dataType: 'json',
                 url: 'busca_disciplina.php',
                 data: {
-                    "id": $(this).val()
+                    "horario": $(this).val()
                 },
                 success: function(data){
                     console.log("success");
