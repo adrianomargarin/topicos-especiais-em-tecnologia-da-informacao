@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"mysql_e",
+				"mysql_error"
+			],
+			[
+				"incl",
+				"include"
+			],
+			[
+				"p",
+				"php	<?php … ?>"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"mys",
+				"mysql_close"
+			],
+			[
+				"con",
+				"CONEXAO"
+			],
+			[
 				"milha",
 				"milharesAux"
 			],
@@ -456,10 +480,6 @@
 				"emitter"
 			],
 			[
-				"p",
-				"p	Tag"
-			],
-			[
 				"Fa",
 				"False"
 			],
@@ -494,45 +514,33 @@
 			[
 				"cl",
 				"cleaned_data"
-			],
-			[
-				"RPS",
-				"RPSValue"
-			],
-			[
-				"service",
-				"service_values_id"
-			],
-			[
-				"ser",
-				"service_value"
-			],
-			[
-				"None",
-				"None"
-			],
-			[
-				"asser",
-				"assertEqual"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "aula-09/Exemplo_JQuery_04.html",
+			"file": "aulas-php/aula-03/trabalho-aula/index.php",
 			"settings":
 			{
-				"buffer_size": 765,
+				"buffer_size": 1889,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "aula-09/Exemplo_JQuery_10.html",
+			"file": "aulas-php/aula-03/trabalho-aula/static/js/trabalho.js",
 			"settings":
 			{
-				"buffer_size": 1071,
-				"line_ending": "Windows"
+				"buffer_size": 92,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "aulas-php/aula-03/trabalho-aula/conexao.php",
+			"settings":
+			{
+				"buffer_size": 235,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -642,13 +650,47 @@
 	"expanded_folders":
 	[
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao",
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-09",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-03",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-03/trabalho-aula",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-03/trabalho-aula/static",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-03/trabalho-aula/static/css",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-03/trabalho-aula/static/js",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/prova-01",
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/prova-01/static",
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/prova-01/static/js"
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/trabalho-aula-1"
 	],
 	"file_history":
 	[
+		"/home/adrianomargarin/Downloads/trabalho_php_1.txt",
+		"/home/adrianomargarin/Downloads/trabalho_php_1.sql",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-03/trabalho-aula/conexao.php",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-03/trabalho-aula/static/js/trabalho.js",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-02/exercicio-aula/index.php",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-02/exercicio-aula/conexao.php",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-02/exercicio-aula/consulta.php",
+		"/home/adrianomargarin/Downloads/aula6/actions/action.php",
+		"/home/adrianomargarin/Downloads/aula6/altera.php",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-02/exercicio-aula/update.php",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-02/exercicio-aula/cadastro.php",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-02/exercicio-aula/cadastro.html",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-02/exemplo-aula/index.html",
+		"/home/adrianomargarin/Downloads/aula6/inclui.php",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-02/exemplo-aula/action.php",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-02/index.php",
+		"/home/adrianomargarin/Downloads/consulta2.php",
+		"/home/adrianomargarin/Downloads/consulta.php",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-02/conexao_bd.php",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-01/index.html",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-01/bemvindo.php",
+		"/var/www/teste.php",
+		"/home/adrianomargarin/Downloads/Aula_1/style.css",
+		"/home/adrianomargarin/Downloads/Aula_1/frmcadastro.html",
+		"/home/adrianomargarin/Downloads/Aula_1/bemvindo.php",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/aula-01",
+		"/var/www/index.html",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aulas-php/index.html",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-09/Exemplo_JQuery_04.html",
+		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-09/Exemplo_JQuery_10.html",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-09/Exemplo_JQuery_09.html",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-09/Exemplo_JQuery_02.html",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-08/exercicios/static/js/exercicio-2.js",
@@ -657,7 +699,6 @@
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-09/Exemplo_07/Exemplo_JQuery_07.html",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-09/Exemplo_JQuery_06.html",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-09/Exemplo_JQuery_05.html",
-		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-09/Exemplo_JQuery_04.html",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-09/Exemplo_JQuery_03.html",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-09/Exemplo_JQuery_01.html",
 		"/home/adrianomargarin/Documents/github-projects/topicos-especiais-em-tecnologia-da-informacao/aula-07/exercicios/static/js/exercicio-5.js",
@@ -747,40 +788,11 @@
 		"/home/adrianomargarin/Downloads/src/Rule.java",
 		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/notapaulista/main.py",
 		"/home/adrianomargarin/Downloads/src/conteudoVariaveis.java",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/xml_exemplo_prefeitura.xml",
-		"/home/adrianomargarin/Downloads/src/msgErro.java",
-		"/home/adrianomargarin/Downloads/src/monitor.java",
-		"/home/adrianomargarin/Downloads/src/Token.java",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/erro_assinatura.txt",
-		"/home/adrianomargarin/Desktop/proposta-salarial.txt",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/pull4up.txt",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/requirements.txt",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/xml_assinado.xml",
-		"/home/adrianomargarin/Documents/docs/static_docs/_static/css/theme.css",
-		"/home/adrianomargarin/Documents/docs/doc/_static/css/theme.css",
-		"/home/adrianomargarin/Downloads/PedidoEnvioRPSEnviadoContribuinte.xml",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/xml_resposta.xml",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/run_tests.sh",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/notapaulista/settings.py",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/script_test.py",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/.gitignore",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/nota-paulista.sublime-project",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/notapaulista/tests/run_tests.sh",
-		"/home/adrianomargarin/Dropbox/Aplicativo NFSe/NFSE São Paulo/exemplosV02/PedidoEnvioLoteRPS.txt",
-		"/home/adrianomargarin/Dropbox/Aplicativo NFSe/NFSE São Paulo/schemasV02/nfse/PedidoEnvioLoteRPS_v01.xsd",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/notapaulista/templates/soap_envelope.xml",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/notapaulista/templates/rps.xml",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/notapaulista/tests/__init__.py",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/notapaulista/tests/test_xml.py",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/notapaulista/template_filters.py",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/notapaulista/templates/test_soap_envelope.xml",
-		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/notapaulista/templates/PedidoEnvioRPS.xml",
-		"/home/amargarin/Downloads/xmldsig-core-schema_v01.xsd",
-		"/home/amargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/script_test.py"
+		"/home/adrianomargarin/Documents/django-projects/pull4up/py-nfse-notapaulistana/xml_exemplo_prefeitura.xml"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -805,6 +817,40 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"myFunction",
+			"mysqli",
+			"rs",
+			" = ",
+			"=\"required\"",
+			"'",
+			"../",
+			" />",
+			"<br />",
+			" type=\"text\"",
+			"6",
+			"col-md-6",
+			"form-group",
+			"ontrol-form",
+			"<input type=\"text\"",
+			"<input",
+			"static/",
+			"$data",
+			"data_cad",
+			"data",
+			"<input",
+			" = ",
+			"$",
+			"mysqli_query",
+			"mysql_query",
+			"php",
+			"POST",
+			"4",
+			".\"<br/>\"",
+			"p",
+			"<br />",
+			"<label",
+			"input ",
+			"type=\"text\" ",
 			"<script src=\"jquery-2.1.4.js\"></script>",
 			"unidade",
 			"UNIDADE",
@@ -898,41 +944,7 @@
 			"</td></tr>",
 			"<tr>",
 			":",
-			"01",
-			"primeiro_numero",
-			"num2",
-			"num1",
-			"primeiro_numero",
-			"primeiro",
-			"\">\n",
-			"src",
-			"<figure>",
-			"discografia",
-			"jcarousel-wrapper",
-			"width=\"600\" height=\"400\" ",
-			"../_shared/img/img",
-			"button",
-			"class=\"button-default\"",
-			"id=",
-			"input",
-			"name",
-			"required",
-			"value=\"1\"",
-			"Senha",
-			"senha",
-			"h1",
-			"ZAE",
-			"LAE",
-			"VOL",
-			"MEC",
-			"ATA",
-			"Adriano Margarin",
-			"<tr>",
-			"                    ",
-			"ine ",
-			"Estamos aprendendo",
-			"ul",
-			"strong"
+			"01"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -986,30 +998,59 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "aula-09/Exemplo_JQuery_04.html",
+					"file": "aulas-php/aula-03/trabalho-aula/index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 765,
+						"buffer_size": 1889,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								522,
+								522
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 72.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "aulas-php/aula-03/trabalho-aula/static/js/trabalho.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 92,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1019,32 +1060,31 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "aula-09/Exemplo_JQuery_10.html",
+					"buffer": 2,
+					"file": "aulas-php/aula-03/trabalho-aula/conexao.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1071,
+						"buffer_size": 235,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								128,
-								128
+								102,
+								102
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1633,6 +1673,14 @@
 			],
 			[
 				"emite",
+				"~/Documents/django-projects/pull4up/emites/emites.sublime-project"
+			],
+			[
+				"portal",
+				"~/Dropbox/TCC - Adriano/portal-antigo/portal-antigo.sublime-project"
+			],
+			[
+				"emie",
 				"~/Documents/django-projects/pull4up/emites/emites.sublime-project"
 			],
 			[

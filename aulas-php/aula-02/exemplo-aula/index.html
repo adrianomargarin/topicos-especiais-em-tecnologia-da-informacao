@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	  <meta charset="utf-8">
+      <title>Consulta de Clientes</title>
+
+      <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
+	  <!--
+	  <script type="text/javascript" src="funcoes.js"> </script>
+	  -->
+	  <script>
+		function executaPost(formulario, acao){
+			var controleEscondido = document.getElementById('id_acao');// Captura a id "action" - campo oculto
+			var formulario = document.getElementById(formulario); // Captura a id "formulario" (form)
+
+			controleEscondido.value = acao; //atribui o parâmetro da função ao campo oculto
+			formulario.submit(); //envia os dados do formulario com o campo oculto setado - troca o valor do campo oculto pelo parÂmetro (salvar ou consultar)
+			formulario.reset();
+		}
+	  </script>
+	</head>
+	<body>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <p class="navbar-text">Aula 02</p>
+            </div>
+        </nav>
+
+        <div class="row">
+            <div class="container">
+				<h1>Inserção de Dados</h1>
+				<form id="formulario" method="post" action="action.php" name="formulario" class="form">
+
+					<input type="hidden" id="id_acao" name="acao"/> <!-- Controle "Escondido" -->
+
+					<div class="form-group">
+						<div class="col-md-4">
+							<label>Nome:</label>
+							<input type="text" class="form-control" name="nome" id="id_nome" size = "30" maxlength = "30" placeholder="Seu nome" autofocus required="required"/>
+						</div>
+						<div class="col-md-4">
+							<label>Fone:</label>
+							<input type="text" class="form-control" name="fone" id="id_fone" size = "15" maxlength = "15" placeholder="Seu telefone" required="required"/>
+						</div>
+						<div class="col-md-4">
+							<label>Data:</label>
+							<input type="date" class="form-control" name="data_cadastramento" id="data_cadastramento" required="required"/>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="col-md-4">
+						<input type="button" class="btn btn-success" value="Salvar" class="botao" onclick="executaPost('formulario','salvar');"/>
+						<input type="button" class="btn btn-warning" value="Consultar"  class="botao" onclick="executaPost('formulario','consultar');"/>
+					</div>
+				</form>
+            </div>
+        </div>
+        <script type="text/javascript" href="../static/jquery.min.js"></script>
+        <script type="text/javascript" href="../static/bootstrap.min.js"></script>
+	</body>
+</html>

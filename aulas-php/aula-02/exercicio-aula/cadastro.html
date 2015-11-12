@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Exercício 01 - Adriano Margarin</title>
+      <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <p class="navbar-text">Exercício 01 - Adriano Margarin</p>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="container">
+            <form method="POST" action="cadastro.php" class="form">
+                    <div class="form-group">
+                        <div class="col-md-4">
+                            <label>Nome:</label>
+                            <input type="text" class="form-control" name="nome" id="id_nome" size="30" maxlength="30" placeholder="Seu nome" autofocus required/>
+                        </div>
+                        <div class="col-md-4">
+                            <label>Fone:</label>
+                            <input type="text" class="form-control" name="fone" id="id_fone" size="11" maxlength="11" placeholder="Seu telefone" required/>
+                        </div>
+                        <div class="col-md-4">
+                            <label>Data:</label>
+                            <input type="date" class="form-control" name="data_cadastramento" id="data_cadastramento" required/>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="submit" class="btn btn-success" value="Salvar"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script type="text/javascript" href="static/jquery.min.js"></script>
+        <script type="text/javascript" href="static/bootstrap.min.js"></script>
+    </body>
+</html>
